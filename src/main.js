@@ -5,7 +5,7 @@ document.querySelector('#app').innerHTML = `
 `
 
 document.getElementById('postBtn').addEventListener('click', () => {
-	fetch('http://localhost:3000/api/data', {
+	fetch('https://server-uno.vercel.app/api/data', {
 		method: 'Post',
 		headers: {
 			'Content-Type' : 'applications/json'
